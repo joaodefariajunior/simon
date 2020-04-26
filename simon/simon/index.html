@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="simon.css">
+    <script src="simon.js"defer ></script>
+    <title>Simon</title>
+</head>
+<body>
+    <div>
+        <div onclick="panelClicked(event.currentTarget)" class="panel top-left-panel  "></div>
+        <div onclick="panelClicked(event.currentTarget)" class="panel top-right-panel "></div>
+    </div>
+    <div>
+    <div onclick="panelClicked(event.currentTarget)" class="panel bottom-left-panel "></div>
+    <div onclick="panelClicked(event.currentTarget)" class="panel bottom-right-panel"></div>
+</div>
+<div class="center"></div>
+</body>
+</html>
